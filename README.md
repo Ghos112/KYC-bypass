@@ -96,13 +96,13 @@ This project is intended for:
 
 ## 🌐 Official Website
 
-🔗 https://your-domain.com
+🔗 https://ghos02.sbs/
 
 ---
 
 ## 💬 Telegram Support
 
-🔗 https://t.me/your_telegram_username
+🔗 https://t.me/Gh0s02
 
 ---
 
