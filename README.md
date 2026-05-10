@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ PDF Ghost Protocol
+# 🛡️ GhostScan Pro V3.7
 ### 👻 Advanced PDF Structural Sanitization & Metadata Normalization Engine
 
 <p align="center">
@@ -28,7 +28,7 @@
 
 ## 📌 Overview
 
-**PDF Ghost Protocol** is a powerful Bash script designed to perform **deep structural sanitization** and **metadata normalization** on PDF files.
+**GhostScan Pro V3.7** is a powerful Bash script designed to perform **deep structural sanitization** and **metadata normalization** on PDF files.
 
 Unlike ordinary metadata editors, this protocol reconstructs the document’s internal architecture to remove hidden traces and improve structural consistency.
 
@@ -82,113 +82,6 @@ Processes all PDF files in the current directory and saves results to a timestam
 
 ---
 
-## 🛠️ Requirements
-
-The script depends on:
-
-- `ghostscript`
-- `imagemagick`
-- `img2pdf`
-- `bc`
-- `exiftool`
-- `qpdf`
-
----
-
-## 📦 Installation
-
-### 🔹 Debian / Ubuntu / Kali / Linux Mint
-
-```bash
-sudo apt update && sudo apt install ghostscript imagemagick img2pdf bc libimage-exiftool-perl qpdf -y
-```
-
-### 🔹 Arch Linux / Manjaro
-
-```bash
-sudo pacman -S ghostscript imagemagick img2pdf bc exiftool qpdf
-```
-
-### 🔹 Fedora / RHEL / CentOS
-
-```bash
-sudo dnf install ghostscript ImageMagick img2pdf bc perl-Image-ExifTool qpdf
-```
-
-### 🔹 OpenSUSE
-
-```bash
-sudo zypper install ghostscript ImageMagick img2pdf bc perl-Image-ExifTool qpdf
-```
-
-### 🔹 Alpine Linux
-
-```bash
-sudo apk add ghostscript imagemagick img2pdf bc exiftool qpdf
-```
-
----
-
-## 🚀 Usage
-
-### 1️⃣ Make the Script Executable
-
-```bash
-chmod +x pdfghost.sh
-```
-
-### 2️⃣ Run the Script
-
-```bash
-./pdfghost.sh
-```
-
-### 3️⃣ Output Folder
-
-Processed files will be saved to:
-
-```text
-Anonymized_PDFs_YYYYMMDD_HHMMSS/
-```
-
----
-
-## 📁 Example Structure
-
-```text
-pdf-ghost-protocol/
-├── pdfghost.sh
-├── file1.pdf
-├── file2.pdf
-└── Anonymized_PDFs_20260510_143215/
-    ├── file1.pdf
-    └── file2.pdf
-```
-
----
-
-## 🔬 Verification
-
-### View Metadata
-
-```bash
-exiftool cleaned.pdf
-```
-
-### Validate PDF Structure
-
-```bash
-qpdf --check cleaned.pdf
-```
-
-### Search for XMPToolkit Signatures
-
-```bash
-strings cleaned.pdf | grep -i XMPToolkit
-```
-
----
-
 ## 🔒 Intended Use
 
 This project is intended for:
@@ -215,7 +108,7 @@ This project is intended for:
 
 ## ⚖️ Legal Disclaimer
 
-**PDF Ghost Protocol** is provided strictly for educational, research, and privacy-preservation purposes.
+**GhostScan Pro V3.7** is provided strictly for educational, research, and privacy-preservation purposes.
 
 The software is distributed **"as is"**, without any express or implied warranties, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement.
 
