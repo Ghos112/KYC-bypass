@@ -4,7 +4,6 @@
 ### 👻 Advanced PDF Structural Sanitization & Metadata Normalization Engine
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Bash-5.0%2B-black?style=for-the-badge&logo=gnu-bash" />
   <img src="https://img.shields.io/badge/PDF-Privacy%20Hardened-red?style=for-the-badge&logo=adobeacrobatreader" />
   <img src="https://img.shields.io/badge/Metadata-Sanitization-green?style=for-the-badge&logo=protonmail" />
   <img src="https://img.shields.io/badge/Linux-Compatible-blue?style=for-the-badge&logo=linux" />
@@ -87,7 +86,7 @@ Generates consistent and logical values for:
 - `MetadataDate`
 
 ### 📂 Batch Processing
-Processes all PDF files in the current directory and saves results to a timestamped output folder.
+Processes all PDF JPEG DOC DOCX files in the current directory and saves results to a timestamped output folder.
 
 ---
 
